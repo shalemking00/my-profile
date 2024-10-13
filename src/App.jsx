@@ -4,7 +4,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/shalem" element={<Home />} />
+        <Route path="/my-profile/**" element={<Home />} />
       </Routes>
     </BrowserRouter>);
 }
